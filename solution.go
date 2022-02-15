@@ -8,7 +8,6 @@ import (
 
 func main() {
 	fmt.Println(GetMessage())
-
 }
 
 func GetMessage() string {
