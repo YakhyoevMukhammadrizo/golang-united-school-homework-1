@@ -1,15 +1,7 @@
-package main
+package solution
 
-import (
-	"fmt"
-
-	"github.com/kyokomi/emoji"
-)
-
-func main() {
-	fmt.Println(GetMessage())
-}
+import "github.com/kyokomi/emoji"
 
 func GetMessage() string {
-	return emoji.Sprint("Hello 🗺️")
+	return emoji.Sprint("Hello :world_map:")
 }
